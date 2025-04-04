@@ -14,6 +14,11 @@ Where:
  - xx - language code (en, de, sw, ...)
  - CC - country code (GB, DE, SW, ...)
 
+### Don't forget to compile .ts into .qm
+```bash
+home/imx8/InstallQt/qt513tools/bin/lrelease resources/translations/RtmpBroadcaster_xx.ts resources/translations/RtmpBroadcaster_xx.qm
+```
+
 
 ## Export .ts to Loco
 
